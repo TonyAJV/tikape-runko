@@ -100,6 +100,7 @@ public class ViestiDao implements Dao<Viesti, Integer> {
 
         return viestit;
     }
+    
 
     @Override
     public void delete(Integer key) throws SQLException {
